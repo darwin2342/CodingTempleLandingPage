@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #111111;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.hero {
+  background-color: #008c9e;
+  padding: 50px 20px;
+}
+
+.projects {
+  padding: 40px 20px;
+  background-color: #ff6f61;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px;
+  overflow: hidden;
+}
+
+.project p {
+  padding: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
